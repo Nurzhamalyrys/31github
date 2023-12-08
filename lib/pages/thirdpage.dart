@@ -1,5 +1,4 @@
 
-
 import 'package:flutter/material.dart';
 
 class Page2 extends StatelessWidget {
@@ -10,7 +9,7 @@ class Page2 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(),
       body: const Center(
-        child: Text('Page 1'),
+        child: Text('Page 2'),
         
       ),
     );

@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/pages/secondpage.dart';
+import 'package:flutter_application_1/pages/thirdpage.dart';
+
+
 
 void main() {
   runApp(
@@ -12,6 +15,8 @@ void main() {
 class Page1 extends StatelessWidget {
 
 
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -21,7 +26,9 @@ class Page1 extends StatelessWidget {
           onPressed: () {
             Navigator.of(context).push(_createRoute());
           },
-          child: const Text('Go!'),
+          child: const Text('Press!'),
+          
+
         ),
       ),
     );
