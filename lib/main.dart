@@ -3,7 +3,17 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
      MaterialApp(
-      home: Scaffold(
+      home: Home ()
+    )
+  );
+}
+
+class Home  extends StatelessWidget {
+  
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
         appBar: AppBar(
           title: const Text(
             'New Year Shop',
@@ -19,7 +29,8 @@ void main() {
         ),
 
         body: Center (
-          child: (Text('Happy New Year, everyone!')
+          child: Image (
+            image: AssetImage('assets/rec2.jpeg'),
           ),
           ),
           floatingActionButton: FloatingActionButton(
@@ -27,8 +38,7 @@ void main() {
             child: Text ('click'),
             backgroundColor: Colors.greenAccent,
           ),
-      ),
-    ),
-  );
+      );
+      
+  }
 }
-
