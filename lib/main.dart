@@ -9,6 +9,8 @@ void main() {
 }
 
 class Home  extends StatelessWidget {
+  get assets => null;
+
   
 
   @override
@@ -29,16 +31,24 @@ class Home  extends StatelessWidget {
         ),
 
         body: Center (
-          child: Image (
-            image: AssetImage('assets/rec2.jpeg'),
+          child: RaisedButton.icon(
+          onPressed: () {},
+          icon: Icon (
+            Icons.mail
           ),
-          ),
+          label: Text('mail me'),
+          color: Colors.black
+
+          )
+          )
+          )
+          
           floatingActionButton: FloatingActionButton(
             onPressed: () {},
             child: Text ('click'),
             backgroundColor: Colors.greenAccent,
-          ),
-      );
+          );
+      
       
   }
 }
