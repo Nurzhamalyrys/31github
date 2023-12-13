@@ -17,6 +17,8 @@ class Home  extends StatelessWidget {
   Widget build(BuildContext context) {
     var gray;
     var black;
+    var yellow;
+    var yellow;
     return Scaffold(
         appBar: AppBar(
           title: const Text(
@@ -32,10 +34,23 @@ class Home  extends StatelessWidget {
           backgroundColor: const Color(0xFF42A5F5),
         ),
 
-        body: Container(
-          padding: EdgeInsets.all(20.0),
-          color: Color.black [400],
-          child: Text('Hello customers'),
+        body: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: <Widget>[
+            Text ('Hello, world'),
+            FlatButton(
+            onPressed: (){},
+            color: Color.yellow,
+            child: Text('Not, hello world!'),
+            ),
+
+            Container(
+              color: Color.yellow,
+              padding: EdgeInsets.all(30.0),
+              child: Text('inside container'),
+            )
+          ],
+
         ),
           );
           )
