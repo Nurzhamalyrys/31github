@@ -15,6 +15,8 @@ class Home  extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var gray;
+    var black;
     return Scaffold(
         appBar: AppBar(
           title: const Text(
@@ -30,16 +32,12 @@ class Home  extends StatelessWidget {
           backgroundColor: const Color(0xFF42A5F5),
         ),
 
-        body: Center (
-          child: RaisedButton.icon(
-          onPressed: () {},
-          icon: Icon (
-            Icons.mail
-          ),
-          label: Text('mail me'),
-          color: Colors.black
-
-          )
+        body: Container(
+          padding: EdgeInsets.all(20.0),
+          color: Color.black [400],
+          child: Text('Hello customers'),
+        ),
+          );
           )
           )
           
