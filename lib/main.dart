@@ -22,12 +22,12 @@ class Home  extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: const Text(
-            'New Year Shop',
+            'XX Shop ',
             style: TextStyle(
-              fontSize: 20,
+              fontSize: 40,
               fontWeight: FontWeight.bold,
-              letterSpacing: 2.0,
-              color: Colors.black
+              letterSpacing: 4.0,
+              color: Colors.yellowAccent
             ),
             ),
           centerTitle: true,
@@ -36,16 +36,17 @@ class Home  extends StatelessWidget {
 
         body: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Text ('Hello, world'),
             FlatButton(
             onPressed: (){},
-            color: Color.yellow,
-            child: Text('Not, hello world!'),
+            color: Colors.yellow,
+            child: Text('What do you mean!'),
             ),
 
             Container(
-              color: Color.yellow,
+              color: Colors.yellow,
               padding: EdgeInsets.all(30.0),
               child: Text('inside container'),
             )
@@ -53,8 +54,8 @@ class Home  extends StatelessWidget {
 
         ),
           );
-          )
-          )
+          
+          
           
           floatingActionButton: FloatingActionButton(
             onPressed: () {},
