@@ -34,39 +34,39 @@ class Home  extends StatelessWidget {
           backgroundColor: const Color(0xFF42A5F5),
         ),
 
-        body: Column(
-          children: [
+        body: Container(
+          child: Column(
+            //mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.start
+            children: [
+              Container(
+                padding: EdgeInsets.all(20.0),
+                color: Colors.black,
+                child: Text ('One'),
+              ),
+        
+              Container(
+                padding: EdgeInsets.all(30.0),
+                color: Colors.amberAccent,
+                child: const Text ('Two '),
+              ),
+        
             Container(
-              padding: EdgeInsets.all(20.0),
-              color: Colors.black,
-              child: Text ('One'),
-            ),
-
-            Container(
-              padding: EdgeInsets.all(30.0),
-              color: Colors.black,
-              child: const Text ('Two '),
-          ],
-
-          Container(
-              padding: EdgeInsets.all(40.0),
-              color: Colors.black,
-              child: Text ('Chris'),
-        ),
-
-            ):
-
-            Container(
-              color: Colors.yellow,
-              padding: EdgeInsets.all(30.0),
-              child: Text('inside container'),
-            )
-          ],
-
+                padding: EdgeInsets.all(40.0),
+                color: Colors.black,
+                child: Text ('Three'),
+          ),
+        
+              Container(
+                color: Colors.yellow,
+                padding: EdgeInsets.all(30.0),
+                child: Text('Four'),
+              )
+            ],
+        
+          ),
         ),
           );
-          
-          
           
           floatingActionButton: FloatingActionButton(
             onPressed: () {},
