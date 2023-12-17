@@ -20,7 +20,46 @@ class NinjaCard extends StatelessWidget {
      
     body: Padding (
       padding: EdgeInsets.fromLTRB(30.0, 40.0, 30.0, 0.0),
-    ) ,
-    );
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          Text (
+            'Name',
+            style: TextStyle (
+               color: Colors.blue,
+               letterSpacing: 2.0
+            )
+           ),
+           SizedBox(height: 17.0),
+             Text (
+            'NOOR',
+            style: TextStyle (
+               color: Colors.yellow,
+               fontSize: 28.0,
+               fontWeight: FontWeight.bold  
+            )
+            ),
+            SizedBox(height: 37.0),
+            Text (
+            'Current Ninja Level',
+            style: TextStyle (
+               color: Colors.blue,
+               letterSpacing: 2.0
+            )
+           ),
+           SizedBox(height: 17.0),
+             Text (
+            '8',
+            style: TextStyle (
+               color: Colors.yellow,
+               fontSize: 28.0,
+               fontWeight: FontWeight.bold  
+            )
+            ),
+        
+       ],)
+      )
+    )
+    
   }
 }
