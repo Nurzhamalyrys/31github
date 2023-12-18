@@ -56,6 +56,25 @@ class NinjaCard extends StatelessWidget {
                fontWeight: FontWeight.bold  
             )
             ),
+            SizedBox(height: 27.0),
+            Row(
+              children: <Widget>[
+              Icon(
+                Icons. email,
+                color: Colors.blue,
+                ),
+                Text('nurzhamalyrysbek@gmail.com',
+                style: TextStyle(
+                color: Colors.orange,
+                fontSize: 28.0,
+                fontWeight: FontWeight.bold),
+                ),
+                
+                
+
+
+              ],
+            )
         
        ],)
       )
