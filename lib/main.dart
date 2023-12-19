@@ -35,7 +35,7 @@ class NinjaCard extends StatelessWidget {
           ),
           
           Text (
-            'Name',
+            'Surname and Name ',
             style: TextStyle (
                color: Colors.blue,
                letterSpacing: 2.0
@@ -43,7 +43,7 @@ class NinjaCard extends StatelessWidget {
            ),
            SizedBox(height: 17.0),
              Text (
-            'NOOR',
+            'Nurzhamal',
             style: TextStyle (
                color: Colors.yellow,
                fontSize: 28.0,
@@ -52,7 +52,7 @@ class NinjaCard extends StatelessWidget {
             ),
             SizedBox(height: 37.0),
             Text (
-            'Current Ninja Level',
+            'Last Ninja Level',
             style: TextStyle (
                color: Colors.blue,
                letterSpacing: 2.0
@@ -74,7 +74,7 @@ class NinjaCard extends StatelessWidget {
                 Icons. email,
                 color: Colors.blue,
                 ),
-                Text('nurzhamalyrysbek@gmail.com',
+                Text('blublueblue.com',
                 style: TextStyle(
                 color: Colors.orange,
                 fontSize: 28.0,
