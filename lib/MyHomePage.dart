@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -18,12 +20,27 @@ class _MyHomePage extends State<MyHomePage > {
       child: Scaffold(
         body:Column(
           children: [
+            Container(
+              
+            )
             Row(children: [
-              ImageIcon(AssetsImage("little.girl.webp"),
-              size:25
-              color: Colors.blue,
+              ImageIcon(Assets("little.girl.webp"),
+              size:25,
+              color: Colors.black,
               )
             ],)
+            Row(
+              children[
+              Icon(Icons.search),
+              SizedBox(width:10.0),
+              Icon (Icons.notifications_on),
+              ]
+              Container (
+                child: Text ("Popular Books"),
+                style:TextStyle(fontSize: 30.0),
+                )
+
+            )
           ],
         )
         ,)
