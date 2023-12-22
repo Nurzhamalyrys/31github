@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'MyHomePage.dart';
+import 'package:flutter_application_1/currency_converter_material.dart';
 
 void main( ) {
   runApp(MyApp ());
@@ -8,14 +8,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'flutter Audio Reading',
-      debugShowCheckedModeBanner:false,
-      theme: ThemeData(
-      primarySwatch: Colors.blue
-
-      ),
+    return const  MaterialApp(
+    home: Currency_converter_MaterialPage,
     );
-    home: MyHomePage  
   }
 }
