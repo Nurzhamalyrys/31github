@@ -24,7 +24,7 @@ class CurrencyConventerMaterialDart  extends StatelessWidget {
             color: Colors.black,
             ),
             ),
-          decoration: InputDecoration (
+          decoration:  InputDecoration (
             hintText: 'Please enter the amount in USA',
            textStyle: TextStyle(
             color: Colors.black,
@@ -35,13 +35,23 @@ class CurrencyConventerMaterialDart  extends StatelessWidget {
            filled: true,
            fillColor: Colors.white,
            focusedBorder:OutlineInputBorder(
-            borderSide:BorderSide(
-              width: 2.0
-              style: BorderStyle.solid,
+           EnablesBorder:border,
+           contentPadding:
             ),
-             ),
+            keyboardType: const TextInputType.numberWithOptions(
+              decimal:true,
+            ),
+
+            TextButton (
+  OnPressed:() {
+    print ('button clicked');
+  },
+  child:Text ('Click me'),
+  
           ),
         ),
       );     
 };
 }
+
+)
