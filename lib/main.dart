@@ -6,12 +6,18 @@ void  main() => runApp(MaterialApp (
       centerTitle: true,
       ),
      body: Center (
-      child: Text ('Hello 2'),
+      child: Text ('Hello 2',
+      style: TextStyle( 
+        color:Colors.yellow,
+      fontSize: 40.0),
       ),
       ),
-      floatingActionButton: FloatingActionButton (
-        child: Text('Click'),
-      )
+      bottomNavigationBar: BottomAppBar(
+        child:Container (height: 20.0),
+         ),
+      ),
+      
+      ),
 
   ),
 
