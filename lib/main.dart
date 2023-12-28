@@ -6,30 +6,20 @@ void  main() => runApp(MaterialApp (
       centerTitle: true,
       ),
      body: Center (
-      child: Text ('Hello 2',
-      style: TextStyle( 
-        color:Colors.yellow,
-      fontSize: 40.0),
-      ),
-       body: Center (
-      child: Text ('Hello 2',
+      child: Text ('Hello 21',
       style: TextStyle( 
         color:Colors.yellow,
       fontSize: 40.0),
       ),
       ),
-      
+      ),
       ),
       
-      bottomNavigationBar: BottomAppBar(
-        child:Container (height: 20.0),
-         ),
-      ),
       
-      ),
-
-  ),
+      );
 
 
-);
+
+
+
 
