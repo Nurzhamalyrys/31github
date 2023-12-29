@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 void  main() => runApp(MaterialApp (
   home: Scaffold (
@@ -8,10 +10,17 @@ void  main() => runApp(MaterialApp (
       ),
      body: Center (
       child: Text ('Hello 21',
-         centerTitle:true ),
+       style:TextStyle(
+        fontSize: 30.0,
+        fontWeight: FontWeight.bold,
+        color: Colors.yellow,
+        letterSpacing: 4.0,
+       ),
+       ),
   
       ),
       floatingActionButton: FloatingActionButton(
+        onPressed: () {  },
         child: Text('Click me'),
         ),
       ),
