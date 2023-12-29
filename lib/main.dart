@@ -4,14 +4,16 @@ void  main() => runApp(MaterialApp (
     appBar: AppBar (
       title: Text ('Hello '),
       centerTitle: true,
+      backgroundColor: Colors.amberAccent,
       ),
      body: Center (
       child: Text ('Hello 21',
-      style: TextStyle( 
-        color:Colors.yellow,
-      fontSize: 40.0),
+         centerTitle:true ),
+  
       ),
-      ),
+      floatingActionButton: FloatingActionButton(
+        child: Text('Click me'),
+        ),
       ),
       ),
       
