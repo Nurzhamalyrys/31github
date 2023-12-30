@@ -13,7 +13,7 @@ void  main() => runApp(MaterialApp (
        style:TextStyle(
         fontSize: 30.0,
         fontWeight: FontWeight.bold,
-        color: Colors.yellow,
+        color: Colors.black38,
         letterSpacing: 4.0,
        ),
        ),
@@ -21,7 +21,14 @@ void  main() => runApp(MaterialApp (
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {  },
-        child: Text('Click me'),
+        child: Text('Click me',
+        letterSpacing:4.0,
+        style: TextStyle(
+          fontSize: 40.0,
+          fontWeight: 40.0,
+          backgroundColor: Colors.green,
+          ),
+        ),
         ),
       ),
       ),
